@@ -68,6 +68,7 @@
             <artifactId>axon-spring-boot-starter</artifactId>
             <version>4.10.1</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.axonframework/axon-server-connector -->
 <!--        <dependency>-->
 <!--            <groupId>org.axonframework</groupId>-->

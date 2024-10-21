@@ -1,8 +1,10 @@
 package ma.enset.comptecqrseventsourcing.commonapi.commands;
 
 import lombok.Getter;
+import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
 public class DebitAccountCommand extends BaseCommand<String>{
+    @TargetAggregateIdentifier
     @Getter
     double amount;
     @Getter
